@@ -11,7 +11,29 @@
 </head>
 
 <body>
+    <div class="password-container">
+        <h2>Password Generator</h2>
+        <div id="password">Password</div>
+        <div class="buttons_container">
+            <button id="generate">generate</button>
+            <button id="copy">copy</button>
+        </div>
 
+        <ul>
+            <li>
+                <input id="psw-length" placeholder="12"></input>
+                Length of password
+            </li>
+            <li>
+                <input type="checkbox" id="ch_special"></input>
+                Use special symbols !@#
+            </li>
+            <li>
+                <input type="checkbox" id="ch_literal"></input>
+                Use LITERAL synbols
+            </li>
+        </ul>
+    </div>
 </body>
 
 </html>
