@@ -24,6 +24,7 @@ h2 {
 }
 
 #password {
+    width: 300px;
     margin: 2rem 0 0.5rem;
     padding: 0.2rem 0.5rem;
     font-weight: bold;
